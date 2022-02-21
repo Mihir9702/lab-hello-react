@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+.logoImage {
+  position: relative;
+  left: -150px;
+}
+
+.menuImage {
+  position: relative;
+  right: -500px;
+  top: -25px;
+}
+
+.banner {
+  text-align: center;
+  background: #1e2435;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  margin-left: 18%;
+  margin-top: 1%;
+  padding-bottom: 20%;
+}
+
+.header > h1 {
+  text-align: left;
+  position: relative;
+  top: 275px;
+  right: 215px;
+  font-size: 64px;
+}
+
+.header > p {
+  position: relative;
+  top: 255px;
+  right: 210px;
+  text-align: left;
+}
+
+.header > button {
+  position: relative;
+  top: 300px;
+  right: 320px;
+  background: #fefefe;
+  color: #1e2435;
+  padding: 16px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 100px;
+  gap: 150px;
+}
+
+.individual-content-container > img {
+  position: relative;
+  right: 20px;
+}
+
