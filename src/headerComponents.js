@@ -1,11 +1,11 @@
 import imageSRC from "./images";
 
 const HeaderImg = () => {
-  const { logo, doubleLine } = imageSRC;
+  const { logo, menu } = imageSRC;
   return (
     <div>
       <img src={logo} alt="logo" className="logoImage" />
-      <img src={doubleLine} alt="menu" className="menuImage" />
+      <img src={menu} alt="menu" className="menuImage" />
     </div>
   );
 };

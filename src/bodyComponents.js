@@ -1,6 +1,6 @@
 import imageSRC from "./images";
 
-const { wrench, youtube, gear, div } = imageSRC;
+const { wrench, youtube, gear, jsx } = imageSRC;
 
 const Wrench = () => {
   return (
@@ -41,7 +41,7 @@ const Gear = () => {
 const JSX = () => {
   return (
     <div className="individual-content-container">
-      <img src={div} alt="jsx" />
+      <img src={jsx} alt="jsx" />
       <h2>JSX</h2>
       <p>
         Statically-typed. <br /> designed to run on <br /> modern browsers
